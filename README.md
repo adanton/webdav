@@ -7,7 +7,7 @@ webdav:
     container_name: webdav
     restart: unless-stopped
     ports:
-      - 85:80
+      - 80:80
     volumes:
       - $HOME/webdav:/var/lib/dav
     environment:
